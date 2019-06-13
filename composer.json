@@ -1,0 +1,27 @@
+{
+    "name": "shrp-commands/js-model-make",
+    "description": "make js model",
+    "keywords": ["laravel", "vue"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "laravel/framework": "5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShrpCommands\\JsModelMake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShrpCommands\\JsModelMake\\ShrpServiceProvider"
+            ]
+        }
+    }
+}
