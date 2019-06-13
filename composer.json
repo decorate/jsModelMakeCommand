@@ -23,5 +23,6 @@
                 "ShrpCommands\\JsModelMake\\ShrpServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
