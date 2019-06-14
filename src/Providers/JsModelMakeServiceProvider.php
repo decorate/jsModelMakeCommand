@@ -1,11 +1,11 @@
 <?php
 
-namespace ShrpCommands\JsModelMake;
+namespace Decorate\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use ShrpCommands\JsModelMake\JSModelMakeCommand;
+use Decorate\Commands\JsModelMakeCommand;
 
-class ShrpServiceProvider extends ServiceProvider
+class JsModelMakeServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -27,7 +27,7 @@ class ShrpServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             //Artisanコマンド　登録
             $this->commands([
-                JSModelMakeCommand::class
+                JsModelMakeCommand::class
             ]);
         }
     }

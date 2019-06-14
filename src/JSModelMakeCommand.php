@@ -1,13 +1,13 @@
 <?php
 
-namespace ShrpCommands\JsModelMake;
+namespace Decorate\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\GeneratorCommand;
 use function Sodium\library_version_major;
 use Symfony\Component\Console\Input\InputArgument;
 
-class JSModelMakeCommand extends GeneratorCommand
+class JsModelMakeCommand extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.

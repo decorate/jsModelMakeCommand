@@ -1,28 +1,38 @@
 {
-    "name": "shrp-commands/js-model-make",
-    "description": "make js model",
+    "name": "decorate/js-model-make-command",
+    "description": "Create a new js model class",
     "keywords": ["laravel", "vue"],
+    "authors": [
+        {
+            "name": "take",
+            "email": "ishizuka@shrp.jp"
+        }
+    ],
     "license": "MIT",
     "require": {
-        "php": "^7.1.3",
-        "laravel/framework": "5.8.*"
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.2",
+        "orchestra/testbench": "^3.5"
     },
     "autoload": {
         "psr-4": {
-            "ShrpCommands\\JsModelMake\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-          "Tests\\": "tests/"
+            "Decorate\\Commands\\": "src/",
+            "Decorate\\Providers\\": "src/Providers",
+            "Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ShrpCommands\\JsModelMake\\ShrpServiceProvider"
+                "Decorate\\Providers\\JsModelMakeServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     },
     "minimum-stability": "dev"
 }
