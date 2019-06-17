@@ -11,7 +11,7 @@ JS_MODEL_DIR=
 
 
 ```
-composer require shrp-commands/js-model-make
+composer require decorate/js-model-make-command
 ```
 
 ## Command
