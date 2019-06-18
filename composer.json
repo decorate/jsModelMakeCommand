@@ -1,5 +1,5 @@
 {
-    "name": "decorate/js-model-make-command",
+    "name": "decorate-commands/js-model-make-command",
     "description": "Create a new js model class",
     "keywords": ["laravel", "vue"],
     "authors": [
