@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DecorateCommands\\JsModelMakeCommand": "src/",
+            "DecorateCommands\\JsModelMakeCommand\\": "src/",
             "DecorateCommands\\JsModelMakeCommand\\Providers\\": "src/Providers",
             "Test\\": "tests"
         }
