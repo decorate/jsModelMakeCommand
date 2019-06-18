@@ -32,7 +32,8 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "vendor-dir": "decorate"
     },
     "minimum-stability": "dev"
 }
