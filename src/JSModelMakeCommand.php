@@ -1,6 +1,6 @@
 <?php
 
-namespace Decorate\DecorateCommands;
+namespace DecorateCommands\JsModelMakeCommand;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\GeneratorCommand;
