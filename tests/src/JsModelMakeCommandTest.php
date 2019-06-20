@@ -1,5 +1,5 @@
 <?php
-    namespace Test;
+    namespace JsModelMakeCommand\Test;
     
     class JsModelMakeCommandTest extends TestCase {
 

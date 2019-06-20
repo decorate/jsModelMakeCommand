@@ -1,5 +1,5 @@
 {
-    "name": "decorate-commands/js-model-make-command",
+    "name": "decorate/js-model-make-command",
     "description": "Create a new js model class",
     "keywords": ["laravel", "vue"],
     "license": "MIT",
@@ -13,20 +13,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Decorate\\Commands\\JsModelMakeCommand\\": "src/",
-            "Decorate\\Commands\\JsModelMakeCommand\\Providers\\": "src/Providers/",
-            "Test\\": "tests"
+            "Decorate\\Commands\\": "src/",
+            "Decorate\\Providers\\": "src/Providers/",
+            "JsModelMakeCommand\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Decorate\\Commands\\JsModelMakeCommand\\Providers\\JsModelMakeServiceProvider"
+                "Decorate\\Providers\\JsModelMakeServiceProvider"
             ]
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "../vendor/bin/phpunit"
     },
     "config": {
         "sort-packages": true
